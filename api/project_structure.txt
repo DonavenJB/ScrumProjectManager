@@ -1,0 +1,72 @@
+/home/user1/VS_Workspace/scrum-project-master
+├── api
+│   ├── pom.xml
+│   ├── project_structure.txt
+│   └── src
+│       ├── main
+│       │   ├── java
+│       │   │   └── se
+│       │   │       └── scrum
+│       │   │           ├── ApiApplication.java
+│       │   │           ├── auth
+│       │   │           │   ├── ApiEntryPoint.java
+│       │   │           │   ├── TokenFilter.java
+│       │   │           │   ├── UserDetailsImpl.java
+│       │   │           │   └── UserDetailsServiceImpl.java
+│       │   │           ├── config
+│       │   │           │   ├── MongoConfig.java
+│       │   │           │   └── SecurityConfig.java
+│       │   │           ├── controller
+│       │   │           │   ├── api
+│       │   │           │   │   └── ApiController.java
+│       │   │           │   ├── HelloController.java
+│       │   │           │   └── user
+│       │   │           │       ├── UserController.java
+│       │   │           │       ├── UserControllerResourceAssembler.java
+│       │   │           │       └── UserControllerResource.java
+│       │   │           ├── domain
+│       │   │           │   ├── backlog
+│       │   │           │   │   └── Backlog.java
+│       │   │           │   ├── container
+│       │   │           │   │   └── ProjectContainer.java
+│       │   │           │   ├── sprint
+│       │   │           │   │   ├── Sprint.java
+│       │   │           │   │   └── SprintState.java
+│       │   │           │   ├── task
+│       │   │           │   │   ├── Task.java
+│       │   │           │   │   └── TaskStatus.java
+│       │   │           │   ├── user
+│       │   │           │   │   ├── User.java
+│       │   │           │   │   ├── UserResourceAssembler.java
+│       │   │           │   │   └── UserResource.java
+│       │   │           │   └── userstory
+│       │   │           │       ├── UserStory.java
+│       │   │           │       └── UserStoryType.java
+│       │   │           ├── exceptions
+│       │   │           │   ├── ControllerExceptionHandler.java
+│       │   │           │   └── ErrorInfo.java
+│       │   │           ├── repo
+│       │   │           │   └── UserRepo.java
+│       │   │           ├── service
+│       │   │           │   └── user
+│       │   │           │       ├── UserServiceImpl.java
+│       │   │           │       └── UserService.java
+│       │   │           └── util
+│       │   │               ├── LoggingUtil.java
+│       │   │               ├── TokenUtil.java
+│       │   │               └── ValidationUtil.java
+│       │   └── resources
+│       │       └── application.properties
+│       └── test
+│           └── java
+│               └── se
+│                   └── scrum
+│                       ├── auth
+│                       │   └── MongoUserDetailsServiceTest.java
+│                       ├── controller
+│                       │   └── SecurityConfigTest.java
+│                       └── user
+│                           └── UserControllerTest.java
+└── pom.xml
+
+32 directories, 38 files
